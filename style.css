@@ -1,0 +1,102 @@
+body {
+    background-color: #303030;
+}
+h1 {
+    color:white;
+    font-family:"Comic Sans MS";
+    padding: 0px 24px;
+    font-size: 54px;
+}
+.card-area {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    min-height: 500px;
+    width: 350px;
+    background-color: #4a4a4a;
+    border-radius: 20px;
+    margin: 16px;
+    border: solid black 6px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.picture-section {
+    position: relative;
+}
+.picture {
+    height: 450px;
+    width: 350px;
+    border-radius: 8px;
+}
+.wishlist {
+    background-color: darkgray;
+    position: absolute;
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.wishlist:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.listing {
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:4px;
+    border-right: #4a4a4a;
+    flex-direction: column;
+    color: navajowhite;
+}
+.name {
+    font-size: 21px;
+    font-weight: bold;
+    color: navajowhite;
+    border-top: solid darkblue 8px;
+    width: 350px;
+}
+.compatible {
+    font-size: 18px;
+    font-weight: bold;
+    right: 50px;
+    display: flex;
+}
+.resource {
+    justify-content: space-between;
+    padding: 8px;
+}
+.developer {
+    font-size: 16px;
+    font-weight: bold;
+}
+.released {
+    font-size: 16px;
+    font-weight: bold;
+}
+.systemreq {
+    font-size: 16px;
+    font-weight: bold;
+}
+.price {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.windows {
+    height: 25px;
+    width: 25px;
+}
+.mac {
+    height: 27px;
+    width:25px;
+    padding: 0px 8px;
+}
+.linux {
+    height: 25px;
+    width:25px;
+}
+a {
+    text-decoration: none;
+}
